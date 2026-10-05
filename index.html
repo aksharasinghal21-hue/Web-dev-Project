@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheat Sheet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+    <div class="logo">QuickRef<span>.io</span></div>
+    <ul> <li><a href="#">Hub</a></li>
+        <li><a href="features.html" target="_blank">Features</a></li>
+        <li><a href="themes.html" target="_blank">Themes</a></li>
+        <li><a href="maker.html" target="_blank">Maker</a></li>
+        <li><a href="ping-me.html" target="_blank">Ping Me</a></li>
+    </ul>   
+</nav>
+<main>
+    <header>
+        <input type="text" id="search-bar" placeholder="Search cheet sheets" >
+    </header>
+    <section>
+        <form id="note-form">
+            <input type="text" id="titles" placeholder="Title" required>
+            <textarea id="codes" placeholder="Code" rows="4" required></textarea>
+            <button type="submit">Add Cheat Sheet</button>
+        </form>
+    </section>
+    <section id="notes-container" class="notes-container">
+        <div class="cheat-card">
+            <h3 class="card-header">Git Basics</h3>
+            <table class="cheat-table">
+                <tr>
+                    <td>git status</td>
+                    <td>Check working tree</td>
+                </tr>
+                <tr>
+                    <td>git add</td>
+                    <td>Stage all changes</td>
+                </tr>
+            </table>
+        </div>
+        <div class="cheat-card">
+    <h3 class="card-header" style="background-color: #3b82f6;">Flexbox Cheats</h3>
+    <table class="cheat-table">
+      <tr>
+        <td>display: flex;</td>
+        <td>Enables flex context</td>
+      </tr>
+      <tr>
+        <td>justify-content</td>
+        <td>Main-axis alignment</td>
+      </tr>
+      <tr>
+        <td>align-items</td>
+        <td>Cross-axis alignment</td>
+      </tr>
+      <tr>
+        <td>gap: 1rem;</td>
+        <td>Space between items</td>
+      </tr>
+    </table>
+  </div>
+  <div class="cheat-card">
+    <h3 class="card-header" style="background-color: #10b981;">Linux Commands</h3>
+    <table class="cheat-table">
+      <tr>
+        <td>ls -la</td>
+        <td>List all details</td>
+      </tr>
+      <tr>
+        <td>cd ..</td>
+        <td>Up one directory</td>
+      </tr>
+      <tr>
+        <td>mkdir &lt;dir&gt;</td>
+        <td>Create directory</td>
+      </tr>
+    </table>
+  </div>
+
+    </section>
+</main>
+    <script src="script.js"></script>
+</body>
+</html>

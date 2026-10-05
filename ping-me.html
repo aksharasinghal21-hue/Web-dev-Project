@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Me - QuickRef.io</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+    <div class="logo">QuickRef<span>.io</span></div>
+    <ul>
+        <li><a href="index.html">Hub</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="themes.html" target="_blank">Themes</a></li>
+        <li><a href="maker.html" target="_blank">Maker</a></li>
+        <li><a href="#">Ping Me</a></li>
+    </ul>   
+</nav>
+
+<main>
+    <header class="page-header">
+        <h1>Ping Me</h1>
+        <p>Questions, feedback, or snippet suggestions? Reach out directly.</p>
+    </header>
+
+    <section class="contact-box">
+        <form id="contact-form" onsubmit="event.preventDefault(); alert('Message sent!'); this.reset();">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message..." rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</main>
+</body>
+</html>
